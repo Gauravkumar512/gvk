@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Post</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: url('images/b1.png') no-repeat center center/cover;
+    }
+
+    .post {
+      background: #fff;
+      width: 400px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .post:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .post-title {
+      font-size: 1.8rem;
+      color: #333;
+      margin: 0 0 10px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .post-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: #007BFF;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.3s ease;
+    }
+
+    .post:hover .post-title::after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+
+    .post-description {
+      font-size: 1rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="post">
+    <h3 class="post-title">Crisis in the classroom: Tackling the global teacher shortage</h3>
+    <p class="post-description">Teachers are the heartbeat of education — sparking curiosity, inspiring minds, and shaping the leaders of tomorrow. Their impact reaches far beyond the classroom, as they not only help build the future of individual students but also contribute to the progress and well-being of society as a whole. Recognizing the profound influence teachers have on both individuals and society, global organizations like UNESCO are prioritizing the development and support of educators to ensure their impact is both sustainable and far-reaching. This involves addressing the global teacher shortage, improving opportunities for professional learning to keep teachers up to date with current teaching methods, and ensuring teachers are equipped to meet the diverse needs of all learners. These efforts are key to achieving Sustainable Development Goal 4, which aims to provide inclusive, equitable, and high-quality education for every child.</p>
+  </div>
+</body>
+</html>

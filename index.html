@@ -1,130 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaurav Kumar - Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Poppins', sans-serif;
-            background-color: #000;
-            color: #fff;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educational Blog</title>
+  <link rel="icon" type="images/png" href="images/educationalblog.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <style>
 
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 50px;
-            background: #000;
-        }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+    }
 
-        header .logo {
-            font-size: 24px;
-            font-weight: 700;
-        }
+    .header .logo-title-container {
+      display: flex;
+      align-items: center;
+    }
 
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
+    .logo {
+      margin-right: 20px;
+    }
 
-        nav ul li {
-            margin: 0 15px;
-        }
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+    }
 
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-            font-weight: 400;
-        }
+    .nav {
+      display: flex;
+      gap: 20px;
+    }
 
-        nav ul li a:hover, nav ul li a.active {
-            color: #ffc107;
-        }
-
-        .hero {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 100px 50px;
-        }
-
-        .hero-text {
-            max-width: 50%;
-        }
-
-        .hero-text h1 {
-            font-size: 50px;
-            font-weight: 700;
-            line-height: 1.2;
-        }
-
-        .hero-text p {
-            font-size: 20px;
-            margin: 20px 0;
-        }
-
-        .hero-text .buttons {
-            margin-top: 20px;
-        }
-
-        .hero-text .buttons a {
-            text-decoration: none;
-            color: #000;
-            background: #ffc107;
-            padding: 10px 20px;
-            border-radius: 5px;
-            margin-right: 10px;
-            font-weight: 600;
-        }
-
-        .hero-text .buttons a.secondary {
-            background: none;
-            color: #fff;
-            border: 1px solid #fff;
-        }
-
-        .hero-image img {
-            max-width: 400px;
-            border-radius: 50%;
-        }
-    </style>
+    .nav a {
+      text-decoration: none;
+      font-size: 16px;
+      color: #1b1a1a;
+    }
+  </style>
 </head>
 <body>
 
-<header>
-    <div class="logo">Gaurav</div>
-    <nav>
-        <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-
-<section class="hero">
-    <div class="hero-text">
-        <h1>Hello! <br> I'm <span style="color: #ffc107;">Gaurav Kumar</span></h1>
-        <p>A Freelance Web Designer</p>
-        <div class="buttons">
-            <a href="#">Hire Me</a>
-            <a href="#" class="secondary">My Works</a>
-        </div>
+  <header class="header">
+    <div class="logo-title-container">
+      <img src="images/educationalblog.png" alt="img" class="logo" width="120px">
+      <h1 class="title">Educational Blog</h1>
     </div>
-    <div class="hero-image">
-        <img src="Myimage2.png" alt="Gaurav Kumar">
+    <div>
+      <nav class="nav">
+        <a href="#categories">Categories</a>
+        <a href="#latest-posts">Latest Posts</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-</section>
+  </header>
 
+  <section class="hero">
+    <div class="hero-content">
+      <h2 class="hero-title">Your Source for Knowledge</h2>
+      <p class="hero-subtitle">Explore the latest in technology, health, and finance.</p>
+      <a href="#latest-posts" class="btn">Read Now</a>
+    </div>
+  </section>
+
+  <section id="categories" class="categories">
+    <h2>Categories</h2>
+    <div class="category-list">
+      <div class="category">
+        <h3>Technology</h3>
+        <p>Discover tutorials, news, and innovations.</p>
+      </div>
+      <div class="category">
+        <h3>Health</h3>
+        <p>Learn tips for a healthier lifestyle.</p>
+      </div>
+      <div class="category">
+        <h3>Finance</h3>
+        <p>Manage your money wisely.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="latest-posts" class="latest-posts">
+    <h2>Latest Posts</h2>
+    <div class="posts">
+      <div class="post">
+        <h3>Crisis in the classroom</h3>
+        <p>Crisis in the classroom: Tackling the global teacher shortage</p>
+        <a href="blog1.html" class="read-more">Read More</a>
+      </div>
+      <div class="post">
+        <h3>The Impact of Stress on Your Digestive System</h3>
+        <p>Most of us are familiar with stress and would have experienced it at some point of time in our lives for sure.</p>
+        <a href="blog2.html" class="read-more">Read More</a>
+      </div>
+      <div class="post">
+        <h3>MoneyTap</h3>
+        <p>MoneyTap, essentially is a fintech lending company that offers quick personal loans in India.</p>
+        <a href="blog3.html" class="read-more">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Welcome to our educational blog where we share insights on technology, health, and finance. Our mission is to empower readers with knowledge.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Educational Blog. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

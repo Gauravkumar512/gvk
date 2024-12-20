@@ -1,0 +1,169 @@
+
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  
+  .header {
+     background: rgb(28, 27, 27); 
+    color: #000000;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .nav a {
+    margin: 0 1rem;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  
+  .hero {
+    background: url('images/bg.png') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn {
+    background: #007BFF;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #0056b3;
+  }
+  
+  .categories {
+    padding: 2rem;
+    text-align: center;
+    background: #f9f9f9;
+  }
+  
+  .category-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+  
+  .category {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(209, 76, 76, 0.1);
+    width: 30%;
+    transition: transform 0.3s;
+  }
+  
+  .category:hover {
+    transform: translateY(-10px);
+  }
+  
+  
+  .latest-posts {
+    padding: 2rem;
+  }
+  
+  .posts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+  
+  .post {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    transition: transform 0.3s;
+  }
+  
+  .post:hover {
+    transform: translateY(-10px);
+  }
+  
+  .read-more {
+    display: block;
+    margin-top: 1rem;
+    text-align: right;
+  }
+  
+
+  .about {
+    padding: 2rem;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  
+  
+  .contact {
+    padding: 2rem;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background: #007BFF;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background: #0056b3;
+  }
+  
+  
+  .footer {
+     background: rgb(27, 27, 27); 
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+ 
